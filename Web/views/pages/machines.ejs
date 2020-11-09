@@ -1,14 +1,17 @@
 <%- include("../templates/header") -%>
+<a href="/machines-turnabout"><button type="button" name="buttonEN">EN</button></a>
+<a href="/juicio-de-las-maquinas"><button type="button" name="buttonES" href="">ES</button></a>
 <div class="banner">
-  <h1>The Machines Turnabout</h1>
-  <p>A story about innovation, forgery and computability in the planet of Sampo</p>
+  <h1><%= msg.title %></h1>
+  <p><%= msg.subtitle %></p>
 </div>
-<button type="button" name="buttonEN">EN</button>
-<button type="button" name="buttonES">ES</button>
 <div class="article">
-  <p>
-     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem
-  </p>
+  <p><%= msg.intro %></p>
+  <div class="iframe-container">
+    <iframe src="iframes/test/index.html"></iframe>
+  </div>
 </div>
+
+
 
 <%- include("../templates/footer") -%>
