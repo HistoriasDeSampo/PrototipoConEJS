@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'AlegreyaSans-Regular';
+  src: url('../srcs/fonts/AlegreyaSans-Regular.otf') format('truetype');
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'AlegreyaSans-Bold';
+  src: url('../srcs/fonts/AlegreyaSans-Bold.otf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
