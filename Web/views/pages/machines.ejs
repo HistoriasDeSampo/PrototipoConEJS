@@ -2,11 +2,13 @@
 <a href="/machines-turnabout"><button type="button" name="buttonEN">EN</button></a>
 <a href="/juicio-de-las-maquinas"><button type="button" name="buttonES" href="">ES</button></a>
 <div class="banner">
-  <h1><%= msg.title %></h1>
-  <p><%= msg.subtitle %></p>
+  <h1><%= msg.content.title %></h1>
+  <p><%= msg.content.subtitle %></p>
 </div>
 <div class="article">
-  <p><%= msg.intro %></p>
+  <p><%=msg.content.text.p1 %></p>
+  <p><%=msg.content.text.p2 %></p>
+  <p><%=msg.content.text.p3 %></p>
   <div class="iframe-container">
     <iframe src="iframes/test/index.html"></iframe>
   </div>

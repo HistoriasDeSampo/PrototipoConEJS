@@ -1,5 +1,18 @@
 {
-  "title": "El Juicio de las Máquinas",
-  "subtitle": "Una ficción sobre innovación, plagios y computabilidad en el planeta Sampo",
-  "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et magna sed magna vulputate aliquam. Aliquam faucibus libero ut volutpat ultricies. Suspendisse lobortis eget ligula vitae tempus. Quisque iaculis consequat nibh vitae iaculis. Donec blandit massa quam. Curabitur bibendum neque eget risus feugiat pretium. Duis cursus, metus non posuere maximus, massa ante vulputate urna, vitae pretium lectus felis sit amet nulla. Curabitur faucibus lorem augue, quis pulvinar eros tristique eu. Suspendisse potenti. Proin id augue ex. Quisque congue tempor ipsum eu ultrices. Vivamus ornare malesuada sapien et dignissim. Pellentesque rhoncus varius nisl, quis hendrerit justo vulputate et. Etiam ut faucibus ligula, vitae laoreet lectus. Vivamus non urna condimentum, aliquet mauris et, sollicitudin nibh."
+  "meta":{
+    "title": "El Juicio de D'Tec"
+  },
+  "content":{
+    "title": "El Juicio de D'Tec",
+    "subtitle": "Donde se decidió la realidad de la diurna",
+    "text":{
+      "p1": "El orador del pueblo accionó el orbe y surgió de su interior una pequeña estructura de roca donde preparó un fuego para alumbrar la plaza. Aprovechó la llama para encender una varilla de incienso y comenzó su sermón.",
+
+      "p2": "-En esta ocasión permitidme que os narre de cuando las diurnas eran las únicas máquinas conocidas. De cuando las noches eran igual de silenciosas que los días. Porque sí, igual que ahora estamos empezando a comprender las crepusculares, hubo un tiempo que las diurnas tuvieron que ser comprendidas.",
+
+      "p3": "La primera máquina construida se remonta al pueblo Secare. Pueblo que dió nombre a esta primera diurna, aunque no fué hasta que se fundó el Alto Mando de Arquitectos Formales que las máquinas que funcionaban gracias al Sol que tomaron el nombre de diurnas. Por aquel entonces la conocían como la máquina de Secare, la Troceadora o La Máquina, a secas, por no existir ninguna edificación similar conocida."
+
+    }
+
+  }
 }

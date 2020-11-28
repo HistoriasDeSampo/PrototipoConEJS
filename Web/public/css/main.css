@@ -29,6 +29,10 @@ h1 {
   font-size: 40px;
 }
 
+.article p {
+  text-align: justify;
+}
+
 .iframe-container {
   position: relative;
   overflow: hidden;
