@@ -1,1 +1,1 @@
-sass --watch WorkingFiles/sass:Web/public/css
+sass --watch WorkingFiles/sass:Web/
