@@ -1,37 +1,73 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html lang="en">
 
 <head>
+  <title>Secare</title>
   <meta charset="utf-8">
-  <title>Drag And Drop</title>
-
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
-  <script src="main.js" defer></script>
-
 </head>
 
 <body>
-  <section class="draggable-elements">
-     <i class="fas fa-cat draggable" draggable="true" style="color: #ff6384;" id="cat"></i>
-     <i class="fas fa-dog draggable" draggable="true" style="color: #36a2eb;" id="dog"></i>
-     <i class="fas fa-dove draggable" draggable="true" style="color: #ffce56;" id="dove"></i>
-     <i class="fas fa-fish draggable" draggable="true" style="color: #9966ff;" id="fish"></i>
-     <i class="fas fa-frog draggable" draggable="true" style="color: #4bc0c0;" id="frog"></i>
-     <!-- <i class="fas fa-horse draggable" draggable="true" style="color: #333333;" id="horse"></i>
-     <i class="fas fa-hippo draggable" draggable="true" style="color: #ff9f40;" id="hippo"></i>
-     <i class="fas fa-spider draggable" draggable="true" style="color: #ff99cc;" id="spider"></i> -->
-   </section>
-   <section class="droppable-elements">
-     <div class="droppable" data-draggable-id="frog"><span>Frog</span></div>
-     <div class="droppable" data-draggable-id="dove"><span>Bird</span></div>
-     <div class="droppable" data-draggable-id="cat"><span>Cat</span></div>
-     <div class="droppable" data-draggable-id="fish"><span>Fish</span></div>
-     <div class="droppable" data-draggable-id="dog"><span>Dog</span></div>
-     <!-- <div class="droppable" data-draggable-id="spider"><span>Spider</span></div>
-     <div class="droppable" data-draggable-id="horse"><span>Horse</span></div>
-     <div class="droppable" data-draggable-id="hippo"><span>Hippo</span></div> -->
-   </section>
-</body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-4 elem">
+        <div class="row">
+          <div class="col-5 elem">
+            <img src="srcs/images/arrow.png" id="input-arrow" class="disabled">
+          </div>
+          <div class="col-7 elem">
+            <img src="srcs/images/orb.png" id="input-orb" class="interactable enabled">
+          </div>
+        </div>
+      </div>
+      <div class="col-8 elem">
+        <div class="row">
+          <div class="col-4 elem">
+            <img src="srcs/images/obj1.png" alt="">
+          </div>
+          <div class="col-4 elem">
+            <img src="srcs/images/obj1.png" alt="">
+          </div>
+          <div class="col-4 elem">
+            <img src="srcs/images/obj1.png" alt="">
+          </div>
+          <div class="col-4 elem">
+            <img src="srcs/images/obj1.png" alt="">
 
+          </div>
+          <div class="col-4 elem">
+            <img src="srcs/images/obj1.png" alt="">
+          </div>
+          <div class="col-4 elem">
+            <img src="srcs/images/obj1.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-8 elem">
+        <img src="srcs/images/machine.png" alt="">
+
+      </div>
+      <div class="col 4 elem">
+        <div class="row">
+          <div class="col-12 elem">
+            <img src="srcs/images/result.png" alt="">
+
+          </div>
+          <div class="col-12 elem">
+            <img src="srcs/images/orb.png" alt="">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script type="text/javascript" src="main.js"></script>
 </html>
