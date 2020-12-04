@@ -102,7 +102,6 @@ outputOrb.mouseenter(function(){
   }
 });
 
-
 function resetScene(){
   inputObjs.each(function(){
     enableInteraction($(this));
