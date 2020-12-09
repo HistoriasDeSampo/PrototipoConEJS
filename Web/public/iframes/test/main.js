@@ -116,4 +116,5 @@ function resetScene(){
   disableElement(outputOrb);
   disableInteraction(outputOrb);
   disableElement(outputObj);
+  enableElement(machine);
 }

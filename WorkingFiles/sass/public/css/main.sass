@@ -36,7 +36,7 @@ h1
   overflow: hidden
   max-width: 100%
   width: 600px
-  padding-top: 150%
+  padding-top: 500px
   iframe
     border: 0
     position: absolute
@@ -49,3 +49,35 @@ h1
 
 #loadOverlay
   display: none
+
+
+//Tooltip
+.tooltip
+  position: relative
+  display: inline-block
+  border-bottom: 1px dotted black
+  cursor: help
+
+
+.tooltipbox
+  visibility: hidden
+  background-color: black
+  color: #fff
+  font-size: 10px
+  text-align: left
+  border-radius: 6px
+  padding: 5px 5px
+  max-width: 256px
+
+  /* Position the tooltip */
+  z-index: 1
+  position: absolute
+
+  .image
+    min-height: 30px
+    background-color: red
+
+
+
+.show-tooltip
+  visibility: visible

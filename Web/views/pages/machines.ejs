@@ -6,12 +6,21 @@
   <p><%= msg.content.subtitle %></p>
 </div>
 <div class="article">
-  <p><%=msg.content.text.p1 %></p>
-  <p><%=msg.content.text.p2 %></p>
-  <p><%=msg.content.text.p3 %></p>
+  <p><%- msg.content.text.p1 %></p>
+  <p><%- msg.content.text.p2 %></p>
+  <p><%- msg.content.text.p3 %></p>
+
 </div>
 <div class="iframe-container">
   <iframe src="iframes/test/index.html"></iframe>
 </div>
 
+<div class="tooltipbox" id="tt-orb" >
+  <div class="image">
+
+    </div>
+  <p> <%- msg.tooltip.orb %></p>
+</div>
+
+<script src="js/machines/main.js"></script>
 <%- include("../templates/footer") -%>
