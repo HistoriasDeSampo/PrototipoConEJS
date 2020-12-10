@@ -56,7 +56,7 @@ h1 {
   display: none;
 }
 
-.tooltip {
+.tooltiptxt {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
@@ -79,6 +79,10 @@ h1 {
 .tooltipbox .image {
   min-height: 30px;
   background-color: red;
+}
+.tooltipbox .close {
+  text-align: right;
+  font-size: 16px;
 }
 
 .show-tooltip {

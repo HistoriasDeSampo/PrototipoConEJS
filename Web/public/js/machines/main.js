@@ -1,5 +1,9 @@
-const tooltips = $(".tooltip");
+const tooltips = $(".tooltiptxt");
 
+$(".close").click(function(){
+
+  $(this).closest('.tooltipbox').removeClass("show-tooltip");
+})
 
 
 tooltips.each(function(){
@@ -12,12 +16,10 @@ tooltips.each(function(){
     //Place every tooltip box in place
     var offsets = $(this).offset();
     const fontsize = parseInt($(this).css('font-size'));
-    console.log(fontsize);
     y = offsets.top + fontsize + 5;
     x = offsets.left;
 
     displacement = Math.max(0, x + 256 - parseInt($(window).width()));
-    console.log(x + ", " + $(window).width());
     tooltipbox.css({left: x - displacement + "px", top: y + "px"});
 
   }).mouseleave(function(){
