@@ -1,10 +1,5 @@
 const tooltips = $(".tooltiptxt");
 
-$(".close").click(function(){
-
-  $(this).closest('.tooltipbox').removeClass("show-tooltip");
-})
-
 
 tooltips.each(function(){
   const id = $(this).attr("tooltipId");
@@ -23,6 +18,6 @@ tooltips.each(function(){
     tooltipbox.css({left: x - displacement + "px", top: y + "px"});
 
   }).mouseleave(function(){
-    tooltipbox.removeClass("show-tooltip");
-  })
+      tooltipbox.removeClass("show-tooltip");
+  });
 })

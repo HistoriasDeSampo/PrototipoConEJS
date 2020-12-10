@@ -64,6 +64,7 @@ h1 {
 }
 
 .tooltipbox {
+  cursor: help;
   visibility: hidden;
   background-color: black;
   color: #fff;
@@ -80,9 +81,9 @@ h1 {
   min-height: 30px;
   background-color: red;
 }
-.tooltipbox .close {
-  text-align: right;
-  font-size: 16px;
+
+.tooltipbox:hover {
+  visibility: visible;
 }
 
 .show-tooltip {
