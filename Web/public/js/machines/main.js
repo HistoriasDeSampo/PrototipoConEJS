@@ -6,7 +6,7 @@ tooltips.each(function(){
   const id = $(this).attr("tooltipId");
   const tooltipbox = $("#" + id);
 
-  $(this).hover(function(){
+  $(this).mouseenter(function(){
     tooltipbox.addClass("show-tooltip");
 
     //Place every tooltip box in place
@@ -16,10 +16,11 @@ tooltips.each(function(){
     y = offsets.top + fontsize + 5;
     x = offsets.left;
 
-    tooltipbox.css({left: x + "px", top: y + "px"});
+    displacement = Math.max(0, x + 256 - parseInt($(window).width()));
+    console.log(x + ", " + $(window).width());
+    tooltipbox.css({left: x - displacement + "px", top: y + "px"});
 
-  })
-  $(this).mouseleave(function(){
+  }).mouseleave(function(){
     tooltipbox.removeClass("show-tooltip");
   })
 })
