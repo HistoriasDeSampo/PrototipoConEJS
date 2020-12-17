@@ -2,16 +2,19 @@ const inputOrb = $("#input-orb");
 const arrow = $("#input-arrow");
 const inputObjs = $(".input-obj");
 const machine = $("#machine");
-const outputOrb = $("#output-orb");
+const outputOrb = $(".output-orb");
 const outputObj = $("#output-obj")
+
+let inputObjId = 0;
 
 inputObjs.each(function(){
   $(this).on('dragstart', function(event) { event.preventDefault(); });
   enableInteraction($(this));
   $(this).on('click', function(){
     if ($(this).attr("interactable") == 1){
-      enableElement(arrow);
-      enableInteraction(arrow);
+      inputObjId = $(this).attr("obj-id");
+      enableElement(inputOrb);
+      enableInteraction(inputOrb);
       inputObjs.each(function(){
         enableElement($(this));
         enableInteraction($(this));
@@ -67,38 +70,47 @@ function enableElement(obj){
 //   }
 // });
 
-arrow.on("click", function(){
+inputOrb.on("click", function(){
   if ($(this).attr("interactable") == 1){
-    disableElement(inputOrb);
-    disableInteraction(inputOrb);
     inputObjs.each(function(){
       if(!$(this).hasClass("selected")){
         disableElement($(this));
       }
       disableInteraction($(this));
     });
+    machine.attr('src', 'srcs/images/Machine2.png');
     disableInteraction($(this));
-    disableElement($(this));
-    enableElement(machine);
     enableInteraction(machine);
   }
 });
+
+machine.mouseenter(function(){
+  if ($(this).attr("interactable") == 1){
+    machine.attr('src', 'srcs/images/Machine3.png');
+  }
+})
 
 machine.on("click", function(){
   if ($(this).attr("interactable") == 1){
     enableElement(outputOrb);
     enableInteraction(outputOrb);
     disableInteraction($(this));
+    outputObj.attr('src', 'srcs/images/Out'+ inputObjId +'.png');
   }
 });
+
+let end = false;
 
 outputOrb.mouseenter(function(){
   if($(this).attr("interactable") == 1){
     enableElement(outputObj);
+    end = true;
   }
-}).mouseleave(function(){
-  if($(this).attr("interactable") == 1){
+})
+$(document).on('click', function(){
+  if(end){
     resetScene();
+    end = false
   }
 });
 
@@ -117,4 +129,5 @@ function resetScene(){
   disableInteraction(outputOrb);
   disableElement(outputObj);
   enableElement(machine);
+  machine.attr('src', 'srcs/images/Machine1.png');
 }

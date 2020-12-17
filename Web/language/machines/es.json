@@ -1,21 +1,23 @@
 {
   "meta":{
-    "title": "El Juicio de D'Tec"
+    "title": "El Origen de las Diurnas"
   },
   "content":{
-    "title": "El Juicio de D'Tec",
-    "subtitle": "Donde se decidió la realidad de la diurna",
+    "title": "El Origen de las Diurnas",
+    "subtitle": "De cuando se construyeron las primeras máquinas",
     "text":{
-      "p1": "El orador del pueblo accionó el <span class='tooltiptxt' tooltipId='tt-orb'>orbe</span> y surgió de su interior una pequeña estructura de roca donde preparó un fuego para alumbrar la plaza. Aprovechó la llama para encender una varilla de incienso y comenzó su sermón.",
+      "p1": "Como cada jueves por la mañana, la anciana oradora del pueblo se acercó a la plaza, accionó su magullado <span class='tooltiptxt' tooltipId='tt-orb'>orbe</span> y este empezó a derramar poco a poco de su interior un líquido translucido formando una pila sujeta por un robusto pilar de mármol. Acto seguido partió un par de ramas de olivo y las depositó en la pila para encender la llama con la que dar comienzo a la sesión.",
 
-      "p2": "-En esta ocasión permitidme que os narre de cuando las diurnas eran las únicas máquinas conocidas. De cuando las noches eran igual de silenciosas que los días. Porque sí, igual que ahora estamos empezando a comprender las crepusculares, hubo un tiempo que las máquinas de energía solar tuvieron que ser comprendidas.",
+      "p2": "-En esta ocasión permitidme que os hable de cuando las diurnas eran las únicas máquinas conocidas. De cuando las noches eran igual de silenciosas que los días. Hablaros de cuando el concepto de máquina pasó del plano academico a un plano pragmático. Permitidme que empiece pues hablando de Secare, la primera diurna.",
 
-      "p3": "La primera máquina construida se desarrolló en el pueblo Secare Oppidum. No obstante hubo que esperar hasta que se fundó el Alto Mando de Arquitectos Formales para que las máquinas que funcionaban gracias al Sol tomaran el nombre con el que hoy se conocen, diurnas. Por aquel entonces muchos se referían a esa primera obra arquitectónica como La Máquina, aunque pronto pasó a conocerse la máquina Secare. Los habitantes de Secare Oppidum lograron construir una edificación capaz de aprovechar la energía solar para dividir objetos."
+      "p3": "La primigenia Secare le debe su nombre al pueblo de Secare Oppidum, famoso por sus maestros troceadores. Este artesanal oficio consistía en dividir sólidos suaves diametrales en dos mitades de igual volumen. Ante la demanda de sus servicios, decidieron desarrollar nuevas herramientas que les facilitaran agilizar su proceso. Junto a un grupo de Arquitectos y Astrónomos construyeron la primera máquina solar, capaz de dividir en dos mitades de igual volumen cualquier objeto comprimido en un <span class='tooltiptxt' tooltipId='tt-orb'>orbe</span>.",
+
+      "p4": "El funcionamiento de Secare es sencillo de enunciar. Dado un sólido rígido comprimido en un <span class='tooltiptxt' tooltipId='tt-orb'>orbe</span>, si este era introducido por la compuerta superior de la máquina, entonces de la tubería surgirían dos orbes, conteniendo cada uno en su interior una mitad del solido introducido. Además, ambas mitades serían de igual volumen aunque no necesariamente de igual masa o forma."
 
     }
 
   },
   "tooltip":{
-    "orb": "Contenedor capaz de albergar objetos compuestos de materia inorganica de cualquier tamaño"
+    "orb": "Esferas huecas capaces de comprimir en su interior objetos conexos de materia inorgánica tales como herramientas, vestimenta, esculturas... <br> Aun comprimiendo estos objetos en volumen, su peso se mantiene."
   }
 }
