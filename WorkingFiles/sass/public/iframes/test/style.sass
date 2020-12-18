@@ -12,19 +12,23 @@ img
   width: 100%
   margin: auto
 
+
 .interactable:hover
   cursor: pointer
 
 .disabled.selected
+  visibility: visible
   opacity: 0.5
 
 .disabled
+  visibility: hidden
   opacity: 0.0
   transition-duration: 0.5s
   transition-property: opacity
 
 
 .enabled
+  visibility: visible
   opacity: 1
   transition-duration: 0.5s
   transition-property: opacity

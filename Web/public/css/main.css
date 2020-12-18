@@ -14,7 +14,7 @@ body {
   text-align: center;
   max-width: 100%;
   padding: 30px;
-  background-color: #f0f0f0;
+  background-position: center;
 }
 
 p {
@@ -31,6 +31,7 @@ h1 {
 
 .article p {
   text-align: justify;
+  line-height: 1.5;
 }
 
 .iframe-container {
@@ -52,14 +53,10 @@ h1 {
   height: 100%;
 }
 
-#loadOverlay {
-  display: none;
-}
-
 .tooltiptxt {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
+  border-bottom: 1px dotted blue;
   cursor: help;
 }
 
@@ -93,6 +90,38 @@ h1 {
 
 .show-tooltip {
   visibility: visible;
+}
+
+.splash-img {
+  width: 100%;
+  padding: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.entry {
+  align-self: center;
+  justify-self: center;
+}
+.entry a {
+  font-family: "AlegreyaSans-Bold";
+  font-size: 40px;
+}
+
+button {
+  font-family: "AlegreyaSans-Bold";
+}
+
+.language-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 
 /*# sourceMappingURL=main.css.map */

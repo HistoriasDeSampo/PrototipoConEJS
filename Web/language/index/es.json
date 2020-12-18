@@ -1,0 +1,14 @@
+{
+  "meta":{
+    "title": "Planeta Sampo",
+    "en": "/en",
+    "es": "/"
+  },
+  "content":{
+    "btn1" : {
+      "text" : "El origen de las Diurnas",
+      "link" : "/el-origen-de-las-diurnas"
+      }
+  }
+
+}

@@ -1,10 +1,12 @@
 {
   "meta":{
-    "title": "D'Tec Turnabout"
+    "title": "The Diurnal Origin",
+    "en": "/the-diurnal-origin",
+    "es": "/el-origen-de-las-diurnas"
   },
   "content":{
-    "title": "D'Tec Turnabout",
-    "subtitle": "Where the reality of the diurnal was decided",
+    "title": "The Diurnal Origin",
+    "subtitle": "When the first machines were built",
     "text":{
       "p1": "Not translated yet",
 

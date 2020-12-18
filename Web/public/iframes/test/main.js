@@ -3,7 +3,18 @@ const arrow = $("#input-arrow");
 const inputObjs = $(".input-obj");
 const machine = $("#machine");
 const outputOrb = $(".output-orb");
-const outputObj = $("#output-obj")
+const outputObj = $("#output-obj");
+const resetBtn = $("#resetBtn");
+
+var images = new Array()
+			function preload() {
+				for (i = 0; i < preload.arguments.length; i++) {
+					images[i] = new Image()
+					images[i].src = "srcs/images/" + preload.arguments[i]
+				}
+			}
+
+preload("Out1.png", "Out2.png", "Out3.png", "Out4.png", "Out5.png", "Out6.png", "Machine1.png", "Machine2.png", "Machine3.png");
 
 let inputObjId = 0;
 
@@ -27,11 +38,11 @@ inputObjs.each(function(){
   });
 })
 
-console.log(inputOrb);
-console.log(arrow);
-
 inputOrb.on('dragstart', function(event) { event.preventDefault(); });
 arrow.on('dragstart', function(event) { event.preventDefault(); });
+machine.on('dragstart', function(event) { event.preventDefault(); });
+outputObj.on('dragstart', function(event) { event.preventDefault(); });
+outputOrb.on('dragstart', function(event) { event.preventDefault(); });
 
 function selectElement(obj){
   obj.addClass("selected");
@@ -99,20 +110,14 @@ machine.on("click", function(){
   }
 });
 
-let end = false;
-
 outputOrb.mouseenter(function(){
   if($(this).attr("interactable") == 1){
     enableElement(outputObj);
-    end = true;
+    disableInteraction(outputOrb);
   }
 })
-$(document).on('click', function(){
-  if(end){
-    resetScene();
-    end = false
-  }
-});
+
+resetBtn.on("click", resetScene);
 
 function resetScene(){
   inputObjs.each(function(){

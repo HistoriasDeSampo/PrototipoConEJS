@@ -1,0 +1,14 @@
+{
+  "meta":{
+    "title": "Sampo Planet",
+    "en": "/en",
+    "es": "/"
+  },
+  "content":{
+    "btn1" : {
+      "text" : "The Diurnal Origin",
+      "link" : "/the-diurnal-origin"
+      }
+  }
+
+}

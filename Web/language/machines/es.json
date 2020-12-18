@@ -1,18 +1,20 @@
 {
   "meta":{
-    "title": "El Origen de las Diurnas"
+    "title": "El Origen de las Diurnas",
+    "en": "/the-diurnal-origin",
+    "es": "/el-origen-de-las-diurnas"
   },
   "content":{
     "title": "El Origen de las Diurnas",
     "subtitle": "De cuando se construyeron las primeras máquinas",
     "text":{
-      "p1": "Como cada jueves por la mañana, la anciana oradora del pueblo se acercó a la plaza, accionó su magullado <span class='tooltiptxt' tooltipId='tt-orb'>orbe</span> y este empezó a derramar poco a poco de su interior un líquido translucido formando una pila sujeta por un robusto pilar de mármol. Acto seguido partió un par de ramas de olivo y las depositó en la pila para encender la llama con la que dar comienzo a la sesión.",
+      "p1": "Como cada jueves por la mañana, la anciana oradora del pueblo se acercó a la plaza, accionó su magullado <span class='tooltiptxt' tooltipId='tt-orb'>orbe</span> y este empezó a derramar poco a poco de su interior un líquido translúcido formando una pila sujeta por un robusto pilar de mármol. Acto seguido, partió un par de ramas de olivo y las depositó en la pila para encender la llama con la que dar comienzo a la sesión.",
 
-      "p2": "-En esta ocasión permitidme que os hable de cuando las diurnas eran las únicas máquinas conocidas. De cuando las noches eran igual de silenciosas que los días. Hablaros de cuando el concepto de máquina pasó del plano academico a un plano pragmático. Permitidme que empiece pues hablando de Secare, la primera diurna.",
+      "p2": "-En esta ocasión permitidme que os hable de cuando las diurnas eran las únicas máquinas conocidas. De cuando las noches eran igual de silenciosas que los días. Hablaros de cuando el concepto de máquina pasó del plano académico a un plano pragmático. Permitidme que empiece, pues, hablando de Secare, la primera diurna.",
 
       "p3": "La primigenia Secare le debe su nombre al pueblo de Secare Oppidum, famoso por sus maestros troceadores. Este artesanal oficio consistía en dividir sólidos suaves diametrales en dos mitades de igual volumen. Ante la demanda de sus servicios, decidieron desarrollar nuevas herramientas que les facilitaran agilizar su proceso. Junto a un grupo de Arquitectos y Astrónomos construyeron la primera máquina solar, capaz de dividir en dos mitades de igual volumen cualquier objeto comprimido en un <span class='tooltiptxt' tooltipId='tt-orb'>orbe</span>.",
 
-      "p4": "El funcionamiento de Secare es sencillo de enunciar. Dado un sólido rígido comprimido en un <span class='tooltiptxt' tooltipId='tt-orb'>orbe</span>, si este era introducido por la compuerta superior de la máquina, entonces de la tubería surgirían dos orbes, conteniendo cada uno en su interior una mitad del solido introducido. Además, ambas mitades serían de igual volumen aunque no necesariamente de igual masa o forma."
+      "p4": "El funcionamiento de Secare es sencillo de enunciar. Dado un sólido rígido comprimido en un <span class='tooltiptxt' tooltipId='tt-orb'>orbe</span>, si es introducido por la compuerta superior de la máquina, entonces de la tubería surgirán dos orbes, conteniendo cada uno en su interior una mitad del solido introducido. Además, ambas mitades serán de igual volumen aunque no necesariamente de igual masa o forma."
 
     }
 

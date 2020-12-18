@@ -9,16 +9,23 @@ app.set('view engine', 'ejs');
 app.use(express.static("public"));
 
 app.get("/", function(req, res){
-  //res.render("index", {PageTitle: "Wellcome"});
-  res.redirect("/juicio-de-las-maquinas");
+  const msgs = require("./language/index/es.json")
+  res.render("index", {msg:msgs});
+  //res.redirect("/juicio-de-las-maquinas");
 })
 
-app.get("/machines-turnabout", function(req, res){
+app.get("/en", function(req, res){
+  const msgs = require("./language/index/en.json")
+  res.render("index", {msg:msgs});
+  //res.redirect("/juicio-de-las-maquinas");
+})
+
+app.get("/the-diurnal-origin", function(req, res){
   const msgs = require("./language/machines/en.json");
   res.render("pages/machines", {msg:msgs});
 })
 
-app.get("/juicio-de-las-maquinas", function(req, res){
+app.get("/el-origen-de-las-diurnas", function(req, res){
   const msgs = require("./language/machines/es.json");
   res.render("pages/machines", {msg:msgs});
 })
